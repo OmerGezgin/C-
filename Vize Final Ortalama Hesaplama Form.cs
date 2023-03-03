@@ -9,13 +9,13 @@ namespace WinFormsApp3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int vize=Convert.ToInt32(txtvize.Text); // Vİze notunu istedim.
+            int vize=Convert.ToInt32(txtvize.Text); // VÃze notunu istedim.
 
             int final= Convert.ToInt32(txtfinal.Text); // Final notunu istedim.
 
-            double ortalama = (vize * 0.4) + (final * 0.6) ; // Ortalama işlemini yaptırdım.
+            double ortalama = (vize * 0.4) + (final * 0.6) ; // Ortalama iÃ¾lemini yaptÃ½rdÃ½m.
 
-            label3.Text="Ortalama :"+ ortalama; // Ortalamanın çıktısını aldırdım.
+            label3.Text="Ortalama :"+ ortalama; // OrtalamanÃ½n Ã§Ã½ktÃ½sÃ½nÃ½ aldÃ½rdÃ½m.
         }
     }
 }
