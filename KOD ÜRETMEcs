@@ -9,14 +9,14 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Rastgele bir 5 haneli kod oluþturmak için randomu kullandým.
+            // Rastgele bir 5 haneli kod oluÅŸturmak iÃ§in randomu kullandÄ±m.
             Random random = new Random();
             string kod = random.Next(10000, 99999).ToString();
 
-            // Kodu MessageBox içinde gösterdim.
+            // Kodu MessageBox iÃ§inde gÃ¶sterdim.
             MessageBox.Show("Yeni Kodunuz: " + kod);
         }
     }
 }
 
-//C# FORM: Bir BUTON olacak ve buttonun üzerinde "KOD ÜRET" yazacak. Butona her basýldýðý zaman MESAJBOX içerisinde rastgele üretilmiþ 5 haneli olan kod yazacak.
+//C# FORM: Bir BUTON olacak ve buttonun Ã¼zerinde "KOD ÃœRET" yazacak. Butona her basÄ±ldÄ±ÄŸÄ± zaman MESAJBOX iÃ§erisinde rastgele Ã¼retilmiÅŸ 5 haneli olan kod yazacak.
